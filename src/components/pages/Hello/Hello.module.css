@@ -1,0 +1,54 @@
+.buttons {
+    font-family: "Space-Grotesk", sans-serif;
+    display: flex;
+    width: 370px;
+    margin: 32px auto 0 auto;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.buttons__item {
+    color: white;
+    text-decoration: none;
+    padding: 22px 32px;
+    border-radius: 100px;
+    width: 180px;
+    height: 70px;
+    position: relative;
+}
+
+.item__outer {
+    transition: .3s;
+    background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38%, #5C24FF 76%, #FF3BFF 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    animation: animateButton 1s linear infinite;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item__inner {
+    background: #000000;
+    height: 95%;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+@keyframes animateButton {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: -180px;
+    }
+}

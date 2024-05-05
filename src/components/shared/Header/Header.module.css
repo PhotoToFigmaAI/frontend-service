@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 0 0 0;
+    align-items: center;
+}
+
+.header__logo {
+
+}
+
+.header__links {
+    display: flex;
+    justify-content: space-between;
+    width: 128px;
+    align-items: center;
+}
+
+.header__links img {
+    width: 24px;
+    height: 28px;
+}
+
+.header__links a {
+    height: 28px;
+}

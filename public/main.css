@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #000000;
+}
+
+@font-face {
+    font-family: 'ClashGrotesk-Regular';
+    src: url('./fonts/ClashGrotesk-Regular.woff') format('woff2'),
+    url('./fonts/ClashGrotesk-Regular.woff') format('woff'),
+    url('./fonts/ClashGrotesk-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashGrotesk-Medium';
+    src: url('./fonts/ClashGrotesk-Medium.woff') format('woff2'),
+    url('./fonts/ClashGrotesk-Medium.woff') format('woff'),
+    url('./fonts/ClashGrotesk-Medium.ttf') format('truetype');
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashGrotesk-Light';
+    src: url('./fonts/ClashGrotesk-Light.woff') format('woff2'),
+    url('./fonts/ClashGrotesk-Light.woff') format('woff'),
+    url('./fonts/ClashGrotesk-Light.ttf') format('truetype');
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}

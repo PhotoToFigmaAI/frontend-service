@@ -1,0 +1,31 @@
+.Nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav__item {
+    font-family: "ClashGrotesk-Regular", sans-serif;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav__item:hover .nav__valve {
+    transition: .3s;
+    width: 100%;
+}
+
+.nav__valve {
+    transition: .3s;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 22px auto;
+    opacity: .8;
+    background: white;
+}
